@@ -1,0 +1,29 @@
+.dataDiv2 {
+    border: 2px solid #00FFB2;
+    width: 340px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 80px;
+}
+
+.dataImg {
+    width: 75px;
+    height: 75px;
+}
+
+.dataName {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.dataAddress {
+    font-size: 18px;
+    color: grey;
+}
+
+.dataDiv3 {
+    text-align: center;
+}

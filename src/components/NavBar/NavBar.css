@@ -1,0 +1,49 @@
+nav {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+    padding: 0 92px;
+}
+
+.ul1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul1 li {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+nav a:hover, .active-nav {
+    color:#00FFB2;
+}
+
+.input {
+    border: 2px solid white;
+    border-radius: 0px 15px 0px 15px;
+    padding: 17px 40px;
+    transition: .8s;
+    color: white;
+    font-size: 18px;
+}
+
+.input:hover {
+    border-radius: 0;
+    background-color: #00FFB2;
+    color: black;
+    border: solid #00FFB2;
+    cursor: pointer;
+}

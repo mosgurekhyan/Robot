@@ -1,0 +1,69 @@
+.plan {
+    width: 500px;
+    height: 440px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 25px 90px;
+    flex-wrap: wrap;
+    transition: .7s;
+    background-color: #151515;
+}
+
+.plan:hover {
+    box-shadow: 0px 4px 15px 0px #00FFB2;
+}
+
+.plan:hover .planBtn {
+    color: #00FFB2;
+}
+
+.planImg {
+    width: 80px;
+    height: 80px;
+}
+
+.planData {
+    width: 250px;
+    height: 290px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.planTitle {
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.planPrice {
+    font-size: 48px;
+    margin: 25px 0;
+    color: #FFFFFF;
+}
+
+.dolar {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.planText {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.planIcon {
+    color: #00FFB2;
+}
+
+.planBtn {
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 19px;
+    transition: .5s;
+    color: #FFFFFF;
+}
+
+.planBtn:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.approach {
+    border: 1.5px solid #FFFFFF;
+    width: 340px;
+    height: 150px;
+    text-align: center;
+    padding: 20px 15px;
+    transition: .7s;
+}
+
+.approach:hover {
+    border: 1.5px solid #00FFB2;
+}
+
+.approachName {
+    font-size: 22px;
+    margin-bottom: 9px;
+    color: #FFFFFF;
+}
+
+.approachText {
+    font-size: 18px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,33 @@
+.about {
+    padding-top: 105px;
+}
+
+.about1 {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 55px;
+    font-weight: bolder;
+    background-image: url('https://template-kit.evonicmedia.com/layout7/wp-content/uploads/2022/07/banner.png');
+    background-size: cover;
+    background-position: center;
+    filter: invert(8%);
+}
+
+.about2 {
+    width: 100%;
+    height: 470px;
+    background-color: #151515;
+    padding: 92px;
+}
+
+.about22 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+.contact {
+    padding-top: 105px;
+}
+
+.contact1 {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    padding: 0 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
