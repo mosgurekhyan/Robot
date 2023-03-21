@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import Plan from '../Plan/Plan'
 import Questions from '../Questions/Questions'
 import './Home.css'
@@ -12,14 +12,17 @@ import Service from '../Service/Service'
 import Cyberica from '../Cyberica/Cyberica'
 import Testimonial from '../Testimonial/Testimonial'
 import { TitleFunction } from '../TitleFunction/TitleFunction'
+import { UseContext } from '../UseContext/UseContext'
 
-function Home({ plans }) {
+function Home() {
   const [num, setNum] = useState(false)
   const [plan, setPlan] = useState(false)
+  const {plans} = useContext(UseContext)
 
   TitleFunction('Home - Avation')
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     window.addEventListener('scroll', handleScroll)
     return () => {
       window.removeEventListener('scroll', handleScroll)

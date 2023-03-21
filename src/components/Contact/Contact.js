@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useContext } from 'react'
 import ContactInputs from '../ContactInputs/ContactInputs'
 import Data from '../Data/Data'
@@ -9,6 +10,10 @@ function Contact() {
   const {data} = useContext(UseContext)
 
   TitleFunction('Contact - Avation')
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <div className='contact'>

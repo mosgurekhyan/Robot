@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import AI from '../AI/AI'
 import ContactInputs from '../ContactInputs/ContactInputs'
 import Cyberica from '../Cyberica/Cyberica'
@@ -10,6 +11,10 @@ import './Services.css'
 
 function Services() {
   TitleFunction('Services - Avation')
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <div className='services'>

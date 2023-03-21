@@ -211,14 +211,15 @@ function App() {
     }
   ])
 
-  const providerValue = useMemo(() => ({data, managers, machines, talents, cyberika, approaches, people}), [data, managers, machines, talents, cyberika, approaches, people])
+  const providerValue = useMemo(() => ({data, managers, machines, talents, cyberika, approaches, people, plans}), 
+  [data, managers, machines, talents, cyberika, approaches, people, plans])
 
   return (
     <div className="App">
       <UseContext.Provider value={providerValue}>
         <Routes>
           <Route path='/' element={<HomeWrapper/>}>
-            <Route index element={<Home plans={plans}/>}/>
+            <Route index element={<Home/>}/>
             <Route path='about' element={<About/>}/>
             <Route path='services' element={<Services/>}/>
             <Route path='contact' element={<Contact/>}/>
